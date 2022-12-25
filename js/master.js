@@ -4,7 +4,7 @@ function showLoading() {
 }
 function showLoadingOne() {
   document.querySelector(".pic").innerHTML =
-    "<img src='https://thumbs.gfycat.com/EnchantingInbornDogwoodtwigborer-max-1mb.gif'>";
+    "<img src='pic/loadPic.gif'>";
 }
 
 function hideLoading() {
@@ -13,7 +13,7 @@ function hideLoading() {
 }
 function hideLoadingOne() {
   document.querySelector(".pic").innerHTML =
-  "<img class='hide' src='https://thumbs.gfycat.com/EnchantingInbornDogwoodtwigborer-max-1mb.gif'>";
+  "<img class='hide' src='pic/loadPic.gif'>";
 }
 
 let url = "https://jsonplaceholder.typicode.com/photos";
